@@ -1,0 +1,157 @@
+.formulario{
+    width: 400px;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color:#424949; 
+    text-align: center;
+   
+}
+
+.form-register-int {
+    width: 400px;
+    margin: auto;
+}
+
+.form-register h4 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-weight: normal;
+      margin-top: -10px;
+}
+
+.inputs{
+    width: 360px;
+    background: white;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 8px;
+    margin: 8px auto;
+    border: 1px solid #424949;
+    font-family: 'calibri';
+    font-size: 18px;
+    color:black;
+}
+
+
+.inputs:active {
+    outline: blue;
+}
+
+.inputGus{
+    position: relative;
+    width: 72px;
+    text-align: center;
+    border-radius: 0px 8px 8px 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-color: #00ff00;
+    bottom: 60px;
+    left:  166px;
+    cursor: pointer;
+}
+
+.imgInputs{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    z-index: 1;
+    bottom: 38px;
+    left: 185px;
+}
+
+.div-gustos{
+    margin-top: -40px;
+
+}
+
+.tab1{
+    width: 400px;
+
+}
+
+.tab-gustos{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tab-gustos td{
+    border: 1px solid lightgray;
+    padding: 5px 0px;
+}
+
+.bandera{
+    width: 50px;
+    background-color: #2ba100;
+    padding: 5px;
+}
+
+.img_bandera{
+    width: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'calibri';
+    line-height: 40px;
+
+}
+
+.form-register a {
+    color: blue;
+    text-decoration: none;
+}
+
+.botons {
+    width: 100px;
+    background: blue;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.input_tabla{
+    padding: 5px 0px;
+    margin: 0 5px;
+    text-align: center;
+    width: 121px;
+}
+
+.celdaEdicion{
+    color: #0000ff;
+    cursor: pointer;
+    margin: 0 5px;
+    width: 50px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.b_aceptar{
+    border-color: #888888;
+    background-color: #ffffff;
+    color:  #888888;
+}
+
+.b_cancelar{
+    border-color: #ff0000;
+    background-color: #ffffff;
+    color:  #ff0000;
+}
+
+#botones_edicion{
+    margin-top: 10px;
+}

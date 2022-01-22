@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+ <title>Parcial</title>
+ <link rel="stylesheet" href="style/styleform.css">
+ <script src="scripts/formscript.js"></script>
+
+ <style>
+
+.titulo{
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;    
+    color: grey;
+}
+
+ </style>
+
+
+</head>
+
+<body style="background-color: rgb(226, 226, 226);">
+    <div class="titulo">
+         
+        <h1><span style="font-weight: bold; color: black; font-family: 'Times New Roman', Times, serif;">Web</span>Developer</h1>             
+   
+    </div>  
+
+    <section class="formulario">
+        <h1>Formulario de afiliacion:</h1>
+            <input class="inputs" type="text" name="nombre" id="nombre" placeholder="Usuraio">
+            <img src="imagenes/usuario.png" class="imgInputs">
+            <input class="inputs" type="text" name="correo" id="correo" placeholder="Correo electronico">
+            <img src="imagenes/correo.png" class="imgInputs">
+            <input class="inputs" type="text" maxlength="11" id="numero" placeholder="Contacto">
+            <img src="imagenes/celular.png" class="imgInputs">
+
+            <input class="inputs" type="text" name="gustos" id="gustos" placeholder="Ingrese un gusto">
+            <button class="inputs inputGus" onclick="agregarFila()">Gustos</button>
+
+            <div class="div-gustos">
+                <table class="tab1">
+                    <tr>
+                        <td class="bandera">
+                            <img src="imagenes/bandera.png" class="img_bandera">
+                        </td>
+                        <td id="td-tab-gustos">
+                            <table class="tab-gustos" id="tabla_gustos">
+                                <tr>
+                                    <td>
+                                       <b>Gusto</b>
+                                    </td>
+                                    <td>
+                                        <b>%</b>
+                                    </td>
+                                    <td>
+                                        <b>Edit</b>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="botones_edicion"></div>
+            <p><a href="#">Ir a Site P web</a></p>
+
+    </section>
+
+</body> 
+
+
+</html>

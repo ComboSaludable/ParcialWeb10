@@ -1,0 +1,62 @@
+.container1{
+	width: 400px;
+	height: 600px;
+	margin-top: 12em;
+}
+.head{
+	background: #17a2b7;
+	display: flex;
+	justify-content: center;
+	height: 15%;
+	width: 100%;
+	align-items: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.texto h2, h3{
+	color: white;
+}
+.head i{
+	position: relative;
+	margin: 20px 20px 20px 0px;
+	font-size: 70px;
+}
+.recibido label{
+	color: #5489b0;
+}
+.body {
+	position: relative;
+	height: 85%;
+	width: 100%;
+	align-items: center;
+	
+}
+.recibido tr,td{
+	position: relative;
+	border-top: 1px solid #ededed;
+	height: 10%;
+	padding: 10px;
+}
+table{
+	border-collapse: collapse;
+	border: 1px solid #ededed;
+	border-radius: 0px 0px 20px 20px;
+}
+.recibido {
+	position: relative;
+	display: flex;
+	background: white;
+	width: 100%;
+	justify-content: center;
+}
+#cal {
+	margin-left: 212px;
+}
+#gra {
+	margin-left: 238px;
+}
+#pro {
+	margin-left: 229px;
+}
+#car {
+	margin-left: 180px;
+}
